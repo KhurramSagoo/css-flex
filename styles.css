@@ -2,15 +2,16 @@
   box-sizing: border-box;
 }
 
-.container {
+.flex-container {
   border: solid 2px #19a99d;
   margin: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-.item {
-  border: 2px solid #000;
-  flex-direction: row;
+.flex-item {
+  border: 1px solid #f151f5;
+  width: 75px;
+  height: 75px;
 }
 
 body {
